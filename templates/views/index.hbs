@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{>header}}
+<body>
+  <div class="app-wrap">
+    <header>
+      <form>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Your Location" />
+      <button>Search</button>
+      </form>
+    </header>
+    <main>
+      <section class="location">
+        <div class="city" id="message-1">Northampton, GB</div>
+        <div class="date" id="message-2"></div>
+      </section>
+      <div class="current">
+        <div class="temp" id="message-3">15<span>°C</span></div>
+        <div class="weather" id="message-4">Sunny</div>
+        <div class="hi-low" id="message-5"> humidity : 40</div>
+      </div>
+    </main>
+  </div>
+  <script src="/js/app.js"></script>
+</body>
+
+</html>
